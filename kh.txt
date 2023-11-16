@@ -1,0 +1,9 @@
+git add // to add files
+
+git status // to show u the status of ur files
+
+git branch // to know ur branch name
+
+git commit =m "ENTER YOUR COMMINT"// to commit ur files
+
+git push origin BRANCH NAME // to upload ur files to githup
