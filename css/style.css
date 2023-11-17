@@ -16,7 +16,7 @@ header {
 }
 ul {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
   list-style: none;
 }
 li {
@@ -28,18 +28,23 @@ a {
   border-radius: 50px;
   padding: 5px;
   transition: 0.3s ease;
+  font-size: 25px;
 }
-a:hover {
+li a:hover {
   transform: scale(1.2);
   color: tomato;
   background-color: blanchedalmond;
 }
-h3 {
+h3 a {
+  /* display: flex; */
   font-weight: 800;
-  font-size: 26px;
+  font-size: 30px;
 }
 h3 a:hover {
-  color: darkgoldenrod;
+  color: rgb(27, 145, 230);
+}
+h3:hover {
+  background-color: none;
 }
 span {
   color: tomato;
